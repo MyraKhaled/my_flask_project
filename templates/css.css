@@ -1,0 +1,117 @@
+.container {
+    width: 400px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 1px 40px;
+    }
+    
+    .title h1 {
+        margin-top: 10px;
+        margin-bottom: -50px;
+        font-size:30px;text-align:center; line-height:1.5em; padding-bottom:45px; font-family:"Playfair Display", serif; text-transform:uppercase;letter-spacing: 2px; color:#111;
+      }
+      
+      
+    
+    .container .input {
+        position: relative;
+        width: 98%;
+        height: 40%;
+    
+        margin: 30px 0;
+    
+    }
+    
+    .inputs .input input{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgb(102, 102, 167);
+        border-radius: 40px;
+        font-size: 16px;
+        color: white;
+        padding: 20px 45px 20px 20px;
+    }
+    
+    .container input::placeholder{
+    color: white;
+    }
+    
+    .container img{
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 16px;
+    
+    }
+    
+    .container .remember_password{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14.6px;
+        margin: -15px 0 15px;
+    }
+    
+    .container .remember_password label input{
+        accent-color: white;
+        margin-right: 4px;
+    }
+    
+    .container .remember_password {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .container .remember_password:hover{
+        text-decoration: underline;
+    
+    }
+    
+    .container .haveaccount{
+        font-size: 14.5px;
+        text-align: center;
+        margin-top: 20px;
+        margin: 20px 0 15px;
+    }
+    
+    .container .haveaccount p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    }
+    
+    
+    .container .haveaccount p a:hover{
+    text-decoration: underline;
+    
+    }
+    
+    
+    .container button{
+        margin-top: 5px;
+        padding: 2.5%;
+        width: 100%;
+        height: 400%;
+        background-color: white;
+        outline: none;
+        border: none;
+        border-radius: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        font-size: 16px;
+        color: #333;
+        font-weight: 700;
+    }
+    
+    .container button:hover{
+    
+    background-color: rgb(175, 186, 204);
+    
+    }
